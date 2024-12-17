@@ -1,0 +1,105 @@
+.detailPage{
+position: relative;
+    .headerContainer{
+        margin: 30px auto;
+            position: relative;
+        .headerImage{
+            width: 82vw;
+            height: 50vh;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+.headerDataContainer {
+    border-radius: 10px;
+    background-color: #0070C0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 70vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:34vh;
+    padding: 20px;
+
+    .section-1 {
+        flex: 7;
+        /* 70% of the container height */
+        display: flex;
+       
+        border-bottom: 1px solid #5e93b9;
+        padding-bottom: 10px;
+
+        .section-1-1 {
+            flex: 2;
+            /* 30% of section-1 width */
+            /* Optional for clarity */
+            font-size: 1.3rem;
+        border-right: 1px solid #5e93b9;
+            /* White vertical line */
+            padding-right: 10px;
+            /* Space after the line */
+                /* Makes section-1-2 a horizontal flex container */
+                justify-content: center;
+                /* Align contents horizontally in the center */
+                align-items: center;
+
+            .city-nation{
+                font-weight: 300;
+            }
+        }
+
+        .section-1-2 {
+            flex: 8;
+            display: flex;
+            height: 100%;
+            padding-left: 20px ;
+            .section-1-2-element{
+                display: flex;
+                    /* Makes the container a vertical flex container */
+                    flex-direction: column;
+                    /* Align children vertically */
+                    justify-content: space-between;
+                    /* Space children evenly vertically */
+                    height: 100%;
+                    /* Ensures it stretches to the parent height */
+                    width: 100%;
+
+                    .name{
+                        font-size: 1.2rem;
+                    }
+            div {
+                &:nth-child(1){
+                    margin-bottom: 10px;
+                }
+                }
+            }
+        }
+        
+    }
+
+    .section-2 {
+        flex: 3;
+        display: inline-flex;
+        margin-top: 10px;
+        .dateSelection{
+            display: flex;
+            align-items: center;
+            div{
+                display: flex;
+                align-items: center;
+                span{
+                    margin-right: 8px;
+                }
+            }
+            img{
+                width: 12px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+    }
+}

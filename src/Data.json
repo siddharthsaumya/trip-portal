@@ -1,0 +1,333 @@
+{
+  "trips": [
+    {
+      "id":1,
+      "tripDestination": {
+        "city": "New York",
+        "nation": "USA"
+      },
+      "userDetails": {
+        "userID": "12345",
+        "name": "Siddharth",
+        "email": "siddharth@example.com",
+        "phone": "+91 9876543210"
+      },
+      "SID": "SID123456",
+      "PNR": "PNR987654321",
+      "tripDates": {
+        "startDate": "29/02/2000",
+        "endDate": "05/03/2000"
+      },
+      "carBooking": {
+        "rentalCompany": "Hertz",
+        "confirmationId": "HERTZ123456",
+        "dropOffPhoneNumber": "+1 212-123-4567",
+        "totalCharge": 250,
+        "pickup": {
+          "pickupAtAirport": true,
+          "pickupDate": "29/02/2000",
+          "pickupTime": "10:00 AM",
+          "pickupLocation": "JFK Airport",
+          "pickupLocationName": "John F. Kennedy International Airport",
+          "dailyRate": 50
+        },
+        "dropOff": {
+          "dropOffDate": "05/03/2000",
+          "dropOffTime": "5:00 PM",
+          "dropOffLocation": "NYC Downtown",
+          "dropOffLocationName": "New York City Downtown",
+          "dailyRate": 50
+        }
+      },
+      "flightBooking": {
+        "arrival": {
+          "arrivalDateTime": "29/02/2000 06:00 PM",
+          "arrivalCity": "New York",
+          "arrivalCityShortcode": "NYC"
+        },
+        "departure": {
+          "departureDateTime": "29/02/2000 09:00 AM",
+          "departureCity": "Mumbai",
+          "departureCityShortcode": "BOM"
+        },
+        "operatingAirline": "American Airlines",
+        "confirmationNumber": "AA1234567",
+        "aircraftType": "Boeing 787",
+        "aircraftManufacturing": "Boeing",
+        "flightNumber": "AA100"
+      },
+      "hotelBooking": {
+        "hotelName": "Marriott Times Square",
+        "address": "1535 Broadway, New York, NY 10036",
+        "totalCost": 1000,
+        "phoneNumber": "+1 212-398-1900",
+        "confirmationNumber": "HTL123456",
+        "checkIn": {
+          "date": "29/02/2000",
+          "time": "3:00 PM"
+        },
+        "checkOut": {
+          "date": "05/03/2000",
+          "time": "12:00 PM"
+        },
+        "personal": true,
+        "cancelled": false
+      },
+      "railBooking": {
+        "departure": {
+          "departureDateTime": "29/02/2000 08:00 AM",
+          "departureCity": "Mumbai",
+          "departureStationLocation": "Mumbai CST",
+          "confirmationNumber": "RAIL123456",
+          "vendorCode": "INDRAIL",
+          "seatNumber": "A5"
+        },
+        "arrival": {
+          "arrivalDateTime": "29/02/2000 05:00 PM",
+          "arrivalCity": "New York",
+          "arrivalStationLocation": "Penn Station"
+        }
+      }
+    },
+    {
+      "id":2,
+      "tripDestination": {
+        "city": "Paris",
+        "nation": "France"
+      },
+      "userDetails": {
+        "userID": "67890",
+        "name": "Mehak",
+        "email": "mehak@example.com",
+        "phone": "+91 9876549876"
+      },
+      "SID": "SID789012",
+      "PNR": "PNR123456789",
+      "tripDates": {
+        "startDate": "01/03/2000",
+        "endDate": "10/03/2000"
+      },
+      "carBooking": {
+        "rentalCompany": "Europcar",
+        "confirmationId": "EUROPCAR987654",
+        "dropOffPhoneNumber": "+33 1 23456789",
+        "totalCharge": 400,
+        "pickup": {
+          "pickupAtAirport": false,
+          "pickupDate": "01/03/2000",
+          "pickupTime": "12:00 PM",
+          "pickupLocation": "Paris City Center",
+          "pickupLocationName": "Paris City Center",
+          "dailyRate": 80
+        },
+        "dropOff": {
+          "dropOffDate": "10/03/2000",
+          "dropOffTime": "11:00 AM",
+          "dropOffLocation": "Paris City Center",
+          "dropOffLocationName": "Paris City Center",
+          "dailyRate": 80
+        }
+      },
+      "flightBooking": {
+        "arrival": {
+          "arrivalDateTime": "01/03/2000 08:00 PM",
+          "arrivalCity": "Paris",
+          "arrivalCityShortcode": "CDG"
+        },
+        "departure": {
+          "departureDateTime": "01/03/2000 10:00 AM",
+          "departureCity": "Delhi",
+          "departureCityShortcode": "DEL"
+        },
+        "operatingAirline": "Air France",
+        "confirmationNumber": "AF1234567",
+        "aircraftType": "Airbus A350",
+        "aircraftManufacturing": "Airbus",
+        "flightNumber": "AF250"
+      },
+      "hotelBooking": {
+        "hotelName": "Le Meurice",
+        "address": "228 Rue de Rivoli, 75001 Paris, France",
+        "totalCost": 2000,
+        "phoneNumber": "+33 1 4421 3535",
+        "confirmationNumber": "HTL987654",
+        "checkIn": {
+          "date": "01/03/2000",
+          "time": "2:00 PM"
+        },
+        "checkOut": {
+          "date": "10/03/2000",
+          "time": "11:00 AM"
+        },
+        "personal": true,
+        "cancelled": false
+      },
+      "railBooking": {
+      }
+    },
+    {
+      "id":3,
+      "tripDestination": {
+        "city": "London",
+        "nation": "UK"
+      },
+      "userDetails": {
+        "userID": "11223",
+        "name": "Arjun",
+        "email": "arjun@example.com",
+        "phone": "+91 9123456789"
+      },
+      "SID": "SID345678",
+      "PNR": "PNR112233445",
+      "tripDates": {
+        "startDate": "12/03/2000",
+        "endDate": "18/03/2000"
+      },
+      "carBooking": {
+        "rentalCompany": "Avis",
+        "confirmationId": "AVIS234567",
+        "dropOffPhoneNumber": "+44 20 1234 5678",
+        "totalCharge": 350,
+        "pickup": {
+          "pickupAtAirport": true,
+          "pickupDate": "12/03/2000",
+          "pickupTime": "11:00 AM",
+          "pickupLocation": "Heathrow Airport",
+          "pickupLocationName": "Heathrow International Airport",
+          "dailyRate": 70
+        },
+        "dropOff": {
+          "dropOffDate": "18/03/2000",
+          "dropOffTime": "3:00 PM",
+          "dropOffLocation": "London Downtown",
+          "dropOffLocationName": "London Downtown",
+          "dailyRate": 70
+        }
+      },
+      "flightBooking": {
+
+      },
+      "hotelBooking": {
+        "hotelName": "The Ritz London",
+        "address": "150 Piccadilly, London W1J 9BR, UK",
+        "totalCost": 1500,
+        "phoneNumber": "+44 20 7493 8181",
+        "confirmationNumber": "HTL234567",
+        "checkIn": {
+          "date": "12/03/2000",
+          "time": "3:00 PM"
+        },
+        "checkOut": {
+          "date": "18/03/2000",
+          "time": "12:00 PM"
+        },
+        "personal": true,
+        "cancelled": false
+      },
+      "railBooking": {
+        "departure": {
+          "departureDateTime": "12/03/2000 07:30 AM",
+          "departureCity": "Bangalore",
+          "departureStationLocation": "Bangalore City Railway Station",
+          "confirmationNumber": "RAIL234567",
+          "vendorCode": "IRCTC",
+          "seatNumber": "C3"
+        },
+        "arrival": {
+          "arrivalDateTime": "12/03/2000 05:00 PM",
+          "arrivalCity": "London",
+          "arrivalStationLocation": "London Victoria"
+        }
+      }
+    },
+    {
+      "id":4,
+      "tripDestination": {
+        "city": "Tokyo",
+        "nation": "Japan"
+      },
+      "userDetails": {
+        "userID": "33445",
+        "name": "Ravi",
+        "email": "ravi@example.com",
+        "phone": "+91 9900112233"
+      },
+      "SID": "SID456789",
+      "PNR": "PNR334455667",
+      "tripDates": {
+        "startDate": "15/03/2000",
+        "endDate": "22/03/2000"
+      },
+      "carBooking": {
+        "rentalCompany": "Nippon Rent-A-Car",
+        "confirmationId": "NIPPON12345",
+        "dropOffPhoneNumber": "+81 3 1234 5678",
+        "totalCharge": 500,
+        "pickup": {
+          "pickupAtAirport": true,
+          "pickupDate": "15/03/2000",
+          "pickupTime": "2:00 PM",
+          "pickupLocation": "Narita Airport",
+          "pickupLocationName": "Narita International Airport",
+          "dailyRate": 100
+        },
+        "dropOff": {
+          "dropOffDate": "22/03/2000",
+          "dropOffTime": "4:00 PM",
+          "dropOffLocation": "Shibuya District",
+          "dropOffLocationName": "Shibuya District",
+          "dailyRate": 100
+        }
+      },
+      "flightBooking": {
+        "arrival": {
+          "arrivalDateTime": "15/03/2000 05:00 PM",
+          "arrivalCity": "Tokyo",
+          "arrivalCityShortcode": "NRT"
+        },
+        "departure": {
+          "departureDateTime": "15/03/2000 11:00 AM",
+          "departureCity": "Chennai",
+          "departureCityShortcode": "MAA"
+        },
+        "operatingAirline": "Japan Airlines",
+        "confirmationNumber": "JL123456",
+        "aircraftType": "Boeing 747",
+        "aircraftManufacturing": "Boeing",
+        "flightNumber": "JL37"
+      },
+      "hotelBooking": {
+        "hotelName": "Park Hyatt Tokyo",
+        "address": "3-7-1-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-1055, Japan",
+        "totalCost": 2500,
+        "phoneNumber": "+81 3 5322 1234",
+        "confirmationNumber": "HTL345678",
+        "checkIn": {
+          "date": "15/03/2000",
+          "time": "3:00 PM"
+        },
+        "checkOut": {
+          "date": "22/03/2000",
+          "time": "11:00 AM"
+        },
+        "personal": true,
+        "cancelled": false
+      },
+      "railBooking": {
+        "departure": {
+          "departureDateTime": "15/03/2000 09:30 AM",
+          "departureCity": "Chennai",
+          "departureStationLocation": "Chennai Central",
+          "confirmationNumber": "RAIL345678",
+          "vendorCode": "IRCTC",
+          "seatNumber": "D1"
+        },
+        "arrival": {
+          "arrivalDateTime": "15/03/2000 07:00 PM",
+          "arrivalCity": "Tokyo",
+          "arrivalStationLocation": "Shinjuku Station"
+        }
+      }
+    }
+  ]
+}

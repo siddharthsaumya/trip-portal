@@ -1,0 +1,96 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.section {
+  display: flex;
+  width: 100vw; /* Full screen width */
+font-family: "Lato", sans-serif;
+}
+
+/* First Section */
+.first-section {
+  height: 5vh; /* Adjust height as needed */
+  background-color: #0070C0; /* Example color */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+font-size: 0.75rem;
+
+  img{
+    height: 2vh;
+    background-color: #1B335D;
+    padding: 1.5vh;
+    position: absolute;
+    left: 0;
+  }
+}
+
+/* Second Section */
+.second-section {
+  height: 75vh; /* Adjust height as needed */
+  background-color: #4682b4; /* Example color */
+}
+
+.left-pane {
+    flex: 1.25;
+    background-color: #1B335D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.75rem;
+
+    .selectedSection , .notSelectedSection{
+      cursor: pointer;
+        width: 100%;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 15px;
+            margin-right: 10px;
+        }
+    }
+
+    .selectedSection{
+        background-color: #0070C0;
+    }
+
+    .notSelectedSection{
+
+    }
+}
+
+.right-pane {
+    flex: 8.75;
+    background-color: #CAD4E0;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* Third Section */
+.third-section {
+  height: 20vh; /* Double the height of the first section */
+  background-color: #EDF2F7; /* Example color */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,34 @@
+.dashboardPage{
+    font-size: 0.75rem;
+    .filterSection{
+        background-color: white;
+        width: 87.5vw;
+        padding-left: 20px;
+        div{
+            display: inline-block;
+            border: 1px solid #0070C0;
+            padding: 2px 5px;
+            margin: 5px;
+            border-radius: 3px;
+            
+        }
+
+        div:hover{
+            background-color: #0070C0;
+            color: white;
+        }
+       
+    }
+    .filterDisplaySection{
+    padding: 5px 0 5px 20px;
+    .filterDisplayList{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    }
+    .tripListSection{
+        min-height: 60vh;
+        padding: 20px 40px;
+        background-color: white;
+    }
+}

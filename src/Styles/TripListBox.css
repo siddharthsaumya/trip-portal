@@ -1,0 +1,110 @@
+.trip-card {
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 3px rgb(224, 224, 224);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+
+    .tripSection{
+       display: inline-block;
+       .partition{
+        display: inline-block;
+
+        .icon{
+            width: 12px;
+            height: 12px;
+        }
+       }
+    }
+    .section1 img , .trip-header-detail{
+        display: inline-block;
+    }
+
+    .section1 .city-image{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 48px;
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+
+    .section1 .trip-header-detail .trip-icons .icon{
+        width: 10px;
+        height: 10px;
+        object-fit: cover;
+        margin: auto 3px;
+    }
+
+    .section1 .trip-header-detail .trip-destination{
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin: 5px auto;
+        color: #0070C0;
+    }
+}
+
+.trip-card>.tripSection {
+    display: inline-block;
+    flex: 1;
+    /* Allow sections to grow/shrink equally */
+}
+
+.trip-card>.section1 {
+    margin-left: 0;
+    /* Ensure no extra margin on the left */
+    display: flex;
+        align-items: center;
+}
+
+.trip-card>.section4 {
+    margin-right: 0;
+        text-align: right;
+        display: flex;
+        /* Ensure it works with flex layout */
+        flex-direction: column;
+        /* Optional, if multiple items in column format */
+        justify-content: flex-end;
+        /* Align items to the end of the flex container */
+        align-items: flex-end;
+        /* Align items horizontally to the right */
+}
+
+.trip-card>.section2,
+.trip-card>.section3 {
+    
+    /* Ensure they use flex layout */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    text-align: center;
+    /* Align text inside */
+}
+
+.trip-card .section3 .trip-info .highlight {
+    color: #0070C0;
+}
+
+.trip-card:hover .section3 .trip-info .highlight, .trip-card:hover .section1 .trip-header-detail .trip-destination {
+    color: white;
+}
+
+
+.trip-card:hover .section1 .trip-header-detail .trip-icons .icon {
+filter: invert(100%) sepia(0%) saturate(7463%) hue-rotate(25deg) brightness(94%) contrast(107%);
+}
+
+.trip-card:hover .tripSection .partition .icon {
+filter: invert(100%) brightness(100%);
+}
+
+.trip-card:hover{
+    background-color:#0070C0;
+    color: white;
+}
